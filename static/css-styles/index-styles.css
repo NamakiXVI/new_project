@@ -1,0 +1,167 @@
+.header-style{
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    background-color: #8a2be23b;
+    font-family: 'Salsa', cursive;
+    padding: 15px 5px;
+    cursor: pointer;
+    transition: all ease 800ms;
+}
+
+.my-form{
+    justify-content: center;
+    padding: 0 10%;
+}
+.translate-container{
+    display: flex;
+    border-radius: 25px;
+    padding: 5px 20px;
+    margin: 5% auto;
+    background-color: rgba(121, 156, 219, 0.749);
+    border-radius: 25px;
+    background: rgba(121, 156, 219, 0.749);
+    box-shadow:  8px 8px 16px #6785ba, -8px -8px 16px #8bb3fc;
+    width: 25%;
+    height: 25%;
+    font-family: 'Salsa', cursive;
+    cursor: pointer;
+    transition: all ease 400ms;
+}
+
+.input {
+    border: none;
+    padding: 1rem;
+    border-radius: 1rem;
+    background: #e8e8e8;
+    box-shadow: 20px 20px 60px #c5c5c5,
+           -20px -20px 60px #ffffff;
+    transition: 0.3s;
+   }
+   
+   .input:focus {
+    outline-color: #e8e8e8;
+    background: #e8e8e8;
+    box-shadow: inset 20px 20px 60px #c5c5c5,
+           inset -20px -20px 60px #ffffff;
+    transition: 0.3s;
+   }
+
+.translate-container:hover{
+    width: 30%;
+    padding: 1% 4%;
+}
+
+.buttondesign {
+    width: 50%;
+    height: 2.5em;
+    border-radius: 30em;
+    font-size: large;
+    font-family: 'Salsa', cursive;
+    text-align: center;
+    display: inline-block;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+   }
+   
+   .buttondesign::before {
+    content: '';
+    width: 0;
+    height: 2.5em;
+    border-radius: 30em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #869abb 0%, #8bb3fc 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   
+   .buttondesign:hover::before {
+    width: 100%;
+   }
+
+.my-input{
+    border-radius: 50px;
+    font-family: 'Salsa', cursive;
+    width: 75%;
+    margin: 0 auto;
+    transition: all ease 400ms;
+    background: #ffffff;
+    box-shadow:  5px 5px 10px #e6e6e6, -5px -5px 10px #ffffff;
+}
+
+.my-input:hover{
+    width: 100%;
+}
+
+body{
+    background-color: rgba(136, 169, 229, 0.376);
+}
+
+.header-style:hover{
+    letter-spacing: 3px;
+    font-size: xx-large;
+}
+
+.center-sth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+
+a{
+    text-decoration: none;
+    color: inherit; 
+    cursor: pointer; 
+}
+
+.github-icon {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin: 0 auto;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.button-div{
+    display: flex;
+    justify-content: center;
+}
+
+.fixed-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }

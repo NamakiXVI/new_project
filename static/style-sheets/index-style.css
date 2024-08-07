@@ -1,0 +1,82 @@
+.my-form {
+    margin: 0 auto;
+    padding: 0 10px;
+    position: fixed; 
+    bottom: 24px;
+    width: 100%;
+    display: flex;
+  }
+
+  .input_design{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+  }
+
+  .button_design{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    width: 25%;
+    border-radius: 50px;
+  }
+
+  .msg_date{
+    font-size:x-small;
+    color: rgba(36, 36, 36, 0.75);
+  }
+
+  body{
+    background-color: beige;
+  }
+
+  .on_join{
+    color: blue;
+  }
+
+  .msg_user{
+    font-size: x-small;
+    position: absolute;
+  }
+
+  .msg_box_div{
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+    -webkit-box-shadow:5px 5px 10px 0px rgba(62,66,66,0.25);
+    -moz-box-shadow: 5px 5px 10px 0px rgba(62,66,66,0.25);
+    box-shadow: 5px 5px 10px 0px rgba(62,66,66,0.25);
+  }
+
+  .font-navbar{
+    color: aliceblue;
+    text-shadow: 5px 5px 10px 0px rgba(62,66,66,0.25);
+  }
+
+  .user_msg_color{
+    background-color:#c4c4aa ;
+  }
+
+  .other_msg_color{
+    background-color: rgb(255, 255, 230);
+  }
+
+  .logout_button{
+    border-radius: 20px;
+    padding: 8px 12px;
+    width: 100%;
+  }
+
+@media (min-width: 600px) {
+    button {
+        width: 10%;
+    }
+}
+
+@media (max-width: 600px) {
+    button {
+        width: 25%;
+    }
+}

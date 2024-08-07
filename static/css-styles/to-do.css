@@ -1,0 +1,11 @@
+.page-content{
+    padding: 50px 200px;
+}
+
+.demo-list-control {
+    width: 300px;
+  }
+  
+  .demo-list-radio {
+    display: inline;
+  }

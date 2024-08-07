@@ -1,0 +1,362 @@
+.video-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    margin: 1% 0px;
+}
+
+.banner{
+  background-color: rgb(197, 197, 197);
+  color: white;
+  border-radius: 50px;
+  text-align: center; 
+  height: 25%;
+  box-shadow: 7px 7px black;
+}
+
+body{
+    background-color: rgb(39, 39, 39);
+    overflow-x: hidden;
+}
+
+.tiktok-info{
+    font-family: 'Single Day', cursive;
+    font-size: 100%;
+    color: whitesmoke;
+    margin: 2% 10%;
+}
+
+.tiktok-video{
+    justify-content: center;
+    border-radius: 25px;
+    box-shadow: 5px 5px black;
+    cursor: pointer;
+    transition: all ease 400ms;
+}
+
+.tiktok-video:hover{
+    width: 85%;
+    height: 85%;
+}
+
+.description{
+    color: white;
+    font-family: 'Single Day', cursive;
+    justify-content: center;
+    font-size: small;
+    overflow: hidden;
+}
+
+.creation-date{
+    color: white;
+    font-family: 'Single Day', cursive;
+    justify-content: left;
+}
+
+.header-text{
+    font-family: 'Single Day', cursive;
+    font-size: 350%;
+    color: white;
+    justify-content: center;
+    display: flex;
+}
+
+.header{
+    width: 100%;
+}
+
+.creator{
+    font-size: xx-large;
+    justify-content: center;
+    transition: all ease 400ms;
+}
+
+.creator:hover{
+    letter-spacing: 2px;
+    font-size: calc(xx-large + 5%);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.tiktok-container{
+    border: 2px solid black;
+    border-radius: 50px;
+    margin: 3% 25%;
+    box-shadow: 10px 10px black;
+    background-color:dimgray;
+    padding: auto 1%;
+}
+
+@media only screen and (max-width: 600px) {
+  .tiktok-container {
+      margin: 3% 10%;
+  }
+}
+
+.mateo{
+    display: flex;
+    align-items: center;
+    font-size: xx-large;
+    font-family: 'Single Day', cursive;
+    color: white;
+}
+
+.button {
+    width: 150px;
+    height: 60px;
+    border: 3px solid #315cfd;
+    border-radius: 45px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: white;
+    font-size: 1.2em;
+    font-weight: 550;
+    font-family: 'Single Day', cursive;
+}
+
+.reload-tiktok{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.button:hover {
+    background: #315cfd;
+    color: rgb(39, 39, 39);
+    font-size: 1.5em;
+}
+
+.share-button {
+    width: auto;
+    margin: 5% auto;
+    box-shadow: 4px 4px black;
+    font-family: 'Single Day', cursive;
+    font-size: 20px;
+    background: royalblue;
+    color: white;
+    padding: 0.7em 1em;
+    padding-left: 0.9em;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.2s;
+    cursor: pointer;
+  }
+  
+  .share-button span {
+    display: block;
+    margin-left: 0.3em;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .share-button svg {
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .share-button:hover .svg-wrapper {
+    animation: fly-1 0.6s ease-in-out infinite alternate;
+  }
+  
+  .share-button:hover svg {
+    transform: translateX(1.2em) rotate(45deg) scale(1.1);
+  }
+  
+  .share-button:hover span {
+    transform: translateX(5em);
+  }
+  
+  .share-button:active {
+    transform: scale(0.95);
+  }
+  
+  @keyframes fly-1 {
+    from {
+      transform: translateY(0.1em);
+    }
+  
+    to {
+      transform: translateY(-0.1em);
+    }
+  }
+
+  .Btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: 4px 4px black;
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition-duration: .3s;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
+    background-color: rgb(255, 65, 65);
+  }
+  
+ 
+  .sign {
+    width: 100%;
+    transition-duration: .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sign svg {
+    width: 17px;
+  }
+  
+  .sign svg path {
+    fill: white;
+  }
+ 
+  .text {
+    position: absolute;
+    right: 0%;
+    width: 0%;
+    opacity: 0;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+    transition-duration: .3s;
+  }
+ 
+  .Btn:hover {
+    width: 150px;
+    border-radius: 40px;
+    box-shadow: 4px 4px black;
+    transition-duration: .3s;
+  }
+  
+  .Btn:hover .sign {
+    width: 30%;
+    transition-duration: .3s;
+    padding-left: 20px;
+  }
+ 
+  .Btn:hover .text {
+    opacity: 1;
+    width: 70%;
+    transition-duration: .3s;
+    padding-right: 10px;
+  }
+  .Btn:active {
+    transform: translate(2px ,2px);
+  }
+
+  .btn-12,
+  .btn-12 *,
+  .btn-12 :after,
+  .btn-12 :before,
+  .btn-12:after,
+  .btn-12:before {
+    border: 0 solid;
+    box-sizing: border-box;
+  }
+  
+  .btn-12 {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-appearance: button;
+    background-color: #000;
+    background-image: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+      Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+      Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 100%;
+    font-weight: 900;
+    line-height: 1.5;
+    margin: 0;
+    -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+    padding: 0;
+    text-transform: uppercase;
+  }
+  
+  .btn-12:disabled {
+    cursor: default;
+  }
+  
+  .btn-12:-moz-focusring {
+    outline: auto;
+  }
+  
+  .btn-12 svg {
+    display: block;
+    vertical-align: middle;
+  }
+  
+  .btn-12 [hidden] {
+    display: none;
+  }
+  
+  .btn-12 {
+    border-radius: 99rem;
+    border-width: 2px;
+    overflow: hidden;
+    padding: 0.8rem 3rem;
+    position: relative;
+    box-shadow: 2px 2px black;
+  }
+  
+  .btn-12 span {
+    mix-blend-mode: difference;
+  }
+  
+  .btn-12:after,
+  .btn-12:before {
+    background: linear-gradient(
+      90deg,
+      #fff 25%,
+      transparent 0,
+      transparent 50%,
+      #fff 0,
+      #fff 75%,
+      transparent 0
+    );
+    content: "";
+    inset: 0;
+    position: absolute;
+    transform: translateY(var(--progress, 100%));
+    transition: transform 0.2s ease;
+  }
+  
+  .btn-12:after {
+    --progress: -100%;
+    background: linear-gradient(
+      90deg,
+      transparent 0,
+      transparent 25%,
+      #fff 0,
+      #fff 50%,
+      transparent 0,
+      transparent 75%,
+      #fff 0
+    );
+    z-index: -1;
+  }
+  
+  .btn-12:hover:after,
+  .btn-12:hover:before {
+    --progress: 0;
+  }
+
+.temp{
+  display: none;
+}
+
+.logout{
+  display: flex;
+  justify-content: end;
+  margin-right: 2%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}

@@ -1,0 +1,66 @@
+textarea {
+    height: 400px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+body{
+    background-color: rgb(47, 47, 47);
+}
+
+#output {
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    white-space: pre-wrap;
+    display: flex;
+}
+
+.ide{
+    margin: 5% 5%;
+}
+
+.button{
+    cursor: pointer;
+    font-size: large;
+    font-family: 'Protest Strike', sans-serif;
+    margin: 2% auto;
+    display: flex;
+    justify-content: end;
+    padding: 3px 4%;
+    border-radius: 15px;
+    letter-spacing: 2px;
+    box-shadow: 4px 4px rgb(0, 0, 0,1);
+    transition: ease all 400ms;
+}
+
+.button:hover{
+    letter-spacing: 6px;
+    padding: 5px 5%;
+    font-size: 22px;
+}
+
+.header{
+    font-family: 'Protest Strike', sans-serif;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+    background-color: lightblue;
+    padding: 10px ;
+    font-size: xx-large;
+    border-radius: 25px;
+    box-shadow: 5px 5px black;
+}
+
+.console{
+    border-radius: 15px;
+    background-color: white;
+    font-family: "VT323", monospace;
+}
+
+.CodeMirror {
+    height: 425px;
+    border-radius: 10px;
+    box-shadow: 5px 5px black;
+}
